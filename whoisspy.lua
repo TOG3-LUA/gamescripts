@@ -25,12 +25,10 @@ clue.Size = UDim2.new(0, 233,0, 50)
 clue.TextColor3 = Color3.fromRGB(255,255,255)
 spy.TextScaled = true
 clue.TextScaled = true
-local clueword = game:GetService("ReplicatedStorage").String.ClueWord.Value
-local spyword = game:GetService("ReplicatedStorage").String.SpyWord.Value
 
 local function change()
-spy.Text = "The spy word is: ".. spyword
-clue.Text = "The default word is: ".. clueword
+	spy.Text = "The spy word is: ".. game:GetService("ReplicatedStorage").String.SpyWord.Value
+	clue.Text = "The default word is: ".. game:GetService("ReplicatedStorage").String.ClueWord.Value
 end
 
 local Players = game:GetService("Players")
