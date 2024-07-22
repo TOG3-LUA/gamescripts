@@ -11,7 +11,6 @@ dec1.Parent = frame
 dec1.Color = Color3.fromRGB(0,0,0)
 dec1.Thickness = 2
 dec1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border 
-dec1:Clone().Parent = title
 dec.Parent = frame
 dec:Clone().Parent = title
 spy.Parent = frame
