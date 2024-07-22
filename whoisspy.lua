@@ -97,5 +97,6 @@ end)
 while true do
 	checkAllPlayers()
 	change()
+	title.TextColor3 =  Color3.fromRGB(math.random(0,255),math.random(0,255),math.random(0,255))
 	wait(1)
 end
