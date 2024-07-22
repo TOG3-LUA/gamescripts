@@ -1,4 +1,4 @@
- local gui = Instance.new("ScreenGui")
+local gui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
 local spy = Instance.new("TextLabel")
 local clue = Instance.new("TextLabel")
@@ -32,6 +32,8 @@ title.BackgroundTransparency = 0.9
 title.Position = UDim2.new(0, 0,-0, 0)
 title.Size = UDim2.new(0, 338,0, 50)
 title.TextColor3 =  Color3.fromRGB(math.random(0,255),math.random(0,255),math.random(0,255))
+title.Text = "IsSpyFucker"
+title.TextScaled = true
 
 local function change()
 	spy.Text = "The spy word is: ".. game:GetService("ReplicatedStorage").String.SpyWord.Value
