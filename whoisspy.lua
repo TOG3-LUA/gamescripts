@@ -10,7 +10,6 @@ frame.Parent = gui
 dec1.Parent = frame
 dec1.Color = Color3.fromRGB(250,250,250)
 dec1.Thickness = 2
-dec1.Transparency = 1
 dec1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border 
 dec1:Clone().Parent = title
 dec.Parent = frame
