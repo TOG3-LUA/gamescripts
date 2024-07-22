@@ -5,6 +5,7 @@ local clue = Instance.new("TextLabel")
 local title = Instance.new("TextLabel")
 local dec = Instance.new("UICorner")
 local dec1 = Instance.new("UIStroke")
+gui.ResetOnSpawn = false
 gui.Parent = game.Players.LocalPlayer.PlayerGui
 frame.Parent = gui
 dec1.Parent = frame
